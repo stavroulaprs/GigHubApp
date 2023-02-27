@@ -1,0 +1,160 @@
+﻿body {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.voffset4{
+    margin-top:40px;
+}
+
+.navbar-gighub {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+
+.navbar-gighub .navbar-nav > li > a {
+    color: #fff;
+ }
+
+.navbar-gighub .navbar-nav > li > a:hover {
+    background-color: brown;
+ }
+
+ul.dropdown-menu{
+    width: 100%;
+}
+
+.navbar-brand-gighub {
+    color: #fff;
+    font-weight: 700;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: brown !important;
+    border-color: rgba(205,40,39,0.55);
+}
+
+.dropdown a:hover {
+    background-color: brown;
+}
+
+.form-control {
+    font-size: 17px;
+    border-radius: 9px;
+    height:44px;
+}
+
+    .form-control:focus {
+        border-bottom-color: #2196f3;
+        box-shadow: none;
+    }
+
+.btn {
+    /*font-size: 17px;
+    padding: 7px 20px;*/
+    border-radius: 9px;
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif
+}
+
+.gigs{
+    list-style:none;
+}
+
+.gigs > li{
+    position:relative;
+    margin-bottom: 30px;
+}
+
+.gigs > li .details{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.gigs >li .date{
+    background:red;
+    color:white;
+    text-align:center;
+    width:60px;
+    border-radius:8px;
+}
+
+.gigs > li .date .month{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+    padding:2px 6px;
+}
+
+.gigs > li .date .day{
+    background:#f7f7f7;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+    padding: 6px 12px;
+}
+
+.gigs > li .details .artist{
+    font-weight:bold;
+    display:block;
+} 
+
+.gigs > li .details .genre{
+    font-size: 15px;
+}
+
+.gigs > li .actions{
+    font-size:15px;
+    display:none;
+}
+
+.gigs > li:hover .actions{
+    display:block;
+}
